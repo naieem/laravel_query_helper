@@ -192,7 +192,7 @@ $itemPerPage = 10;
 $pageNumber = 2; 
 ```
 
-4. ItemPerPage: exaple:
+4. Relational Functions array: exaple:
 ['tags','comments'].
 
 Exaple of calling the Function:
