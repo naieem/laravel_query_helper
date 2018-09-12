@@ -100,19 +100,19 @@ $fields = 'products.*,productdenormalizes.product_tag,metas.meta_name,metas.meta
 Here 'metas' and 'productdenormalizes' are the table with which 
 the main table is trying to join and get filtered data.
 
-4. OrderBy: exaple:
+4. OrderBy: Example:
 ```php
 $orderBy = [
             "product_price" => "asc"
 ];
 ```
 
-5. PageNumber: exaple:
+5. PageNumber: Example:
 ```php
 $itemPerPage = 10;
 ```
 
-6. ItemPerPage: exaple:
+6. ItemPerPage: Example:
 ```php
 $pageNumber = 2;
         
@@ -175,24 +175,24 @@ $whereClause = [
         ];
 ```
 
-2. OrderBy: exaple:
+2. OrderBy: Example:
 ```php
 $orderBy = [
             "product_price" => "asc"
 ];
 ```
 
-3. PageNumber: exaple:
+3. PageNumber: Example:
 ```php
 $itemPerPage = 10;
 ```
 
-4. ItemPerPage: exaple:
+4. ItemPerPage: Example:
 ```php
 $pageNumber = 2; 
 ```
 
-4. Relational Functions array: exaple:
+4. Relational Functions array: Example:
 ['tags','comments'].
 
 Exaple of calling the Function:
