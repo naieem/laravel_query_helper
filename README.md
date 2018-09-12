@@ -147,28 +147,6 @@ public function store(Request $request)
 Response:
 Collection of all data coming from data base.
 
-
-### Insert()
-Params:
-1. Data of the model table. Example:
-
-```php
-public function store(Request $request)
-    {
-        $allData = $request->all();
-
-        try {
-            $insertResult = $this->helper->insert($allData);
-            return response($insertResult, 200);
-        } catch (BadRequestHttpException $e) {
-            return response($e, 500);
-        }
-    }     
-```
-
-Response:
-Collection of all data coming from data base.
-
 ### GetDataBySqlFilter()
 
 Params:
