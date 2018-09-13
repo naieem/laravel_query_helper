@@ -69,10 +69,10 @@ example:['tags','comments'].
 Response:
 Collection of all data coming from data base.
 
-### GetResultByComplex($whereClause = [], $orderBy = [], $pageNumber = null, $itemPerPage = null, $relationalFncs = null)
+### GetResultByComplex($parentCondition = null, $joiningcondition = null, $fields = null, $orderby = null, $pageNumber = null, $itemPerPage = null)
 
 Params:
-1. whereClause: example.
+1. ParentCondition: example.
 ```php
 $whereClause = [
     "and" => [
@@ -175,7 +175,7 @@ public function store(Request $request)
 Response:
 Collection of all data coming from data base.
 
-### GetDataBySqlFilter($parentCondition = null, $joiningcondition = null, $fields = null, $orderby = null, $pageNumber = null, $itemPerPage = null)
+### GetDataBySqlFilter($whereClause = [], $orderBy = [], $pageNumber = null, $itemPerPage = null, $relationalFncs = null)
 
 Params:
 1. whereClause: example.
