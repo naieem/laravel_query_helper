@@ -220,9 +220,6 @@ $itemPerPage = 10;
 $pageNumber = 2; 
 ```
 
-5. Relational Functions array: Example:
-['tags','comments'].
-
 Exaple of calling the Function:
 ```php
 $products = $this->helper->getDataBySqlFilter($whereClause, $orderBy, $pageNumber, $itemPerPage, $relationalFncs);     
