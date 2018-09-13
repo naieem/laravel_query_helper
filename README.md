@@ -230,11 +230,11 @@ $products = $this->helper->getDataBySqlFilter($whereClause, $orderBy, $pageNumbe
 Response:
 Collection of all data coming from data base.
 
-#Postman Query
+# Postman Query
 
-##Functions Includes:
+## Functions Includes:
 
-###getResultByComplex()
+### getResultByComplex()
 ```json
    {
     "whereClause":{
@@ -265,7 +265,7 @@ Collection of all data coming from data base.
 }
 ```
 
-###insert()
+### insert()
 
 ```json
 {

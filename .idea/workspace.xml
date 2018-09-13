@@ -32,21 +32,21 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="4100">
-                <caret line="221" column="17" lean-forward="true" selection-start-line="221" selection-start-column="17" selection-end-line="221" selection-end-column="17" />
+              <first_editor relative-caret-position="212">
+                <caret line="267" column="4" lean-forward="false" selection-start-line="267" selection-start-column="4" selection-end-line="267" selection-end-column="4" />
                 <folding>
-                  <marker date="1536833874590" expanded="true" signature="5393:6058" ph="{&quot;selectedFields&quot;: &quot;products.product_title as ProductTitle,products.product_price as ProductPrice,productdenormalizes.product_tag,metas.meta_name,metas.meta_value&quot;...}" />
-                  <marker date="1536833874590" expanded="true" signature="5413:5515" ph="{...}" />
-                  <marker date="1536833874590" expanded="true" signature="5429:5508" ph="{...}" />
-                  <marker date="1536833874590" expanded="true" signature="5448:5498" ph="{&quot;product_price&quot;: 20...}" />
-                  <marker date="1536833874590" expanded="true" signature="5537:5835" ph="{...}" />
-                  <marker date="1536833874590" expanded="true" signature="5555:5669" ph="{...}" />
-                  <marker date="1536833874590" expanded="true" signature="5575:5659" ph="[...]" />
-                  <marker date="1536833874590" expanded="true" signature="5701:5829" ph="{...}" />
-                  <marker date="1536833874590" expanded="true" signature="5721:5819" ph="[...]" />
-                  <marker date="1536833874590" expanded="true" signature="6018:6056" ph="{&quot;product_price&quot;: &quot;desc&quot;...}" />
-                  <marker date="1536833874590" expanded="true" signature="6085:6408" ph="{&quot;table&quot;: &quot;products&quot;...}" />
-                  <marker date="1536833874590" expanded="true" signature="6122:6406" ph="{&quot;product_title&quot;: &quot;Hello world&quot;...}" />
+                  <marker date="1536833970650" expanded="true" signature="5396:6061" ph="{&quot;selectedFields&quot;: &quot;products.product_title as ProductTitle,products.product_price as ProductPrice,productdenormalizes.product_tag,metas.meta_name,metas.meta_value&quot;...}" />
+                  <marker date="1536833970650" expanded="true" signature="5416:5518" ph="{...}" />
+                  <marker date="1536833970650" expanded="true" signature="5432:5511" ph="{...}" />
+                  <marker date="1536833970650" expanded="true" signature="5451:5501" ph="{&quot;product_price&quot;: 20...}" />
+                  <marker date="1536833970650" expanded="true" signature="5540:5838" ph="{...}" />
+                  <marker date="1536833970650" expanded="true" signature="5558:5672" ph="{...}" />
+                  <marker date="1536833970650" expanded="true" signature="5578:5662" ph="[...]" />
+                  <marker date="1536833970650" expanded="true" signature="5704:5832" ph="{...}" />
+                  <marker date="1536833970650" expanded="true" signature="5724:5822" ph="[...]" />
+                  <marker date="1536833970650" expanded="true" signature="6021:6059" ph="{&quot;product_price&quot;: &quot;desc&quot;...}" />
+                  <marker date="1536833970650" expanded="true" signature="6089:6412" ph="{&quot;table&quot;: &quot;products&quot;...}" />
+                  <marker date="1536833970650" expanded="true" signature="6126:6410" ph="{&quot;product_title&quot;: &quot;Hello world&quot;...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -238,12 +238,12 @@
       <option name="presentableId" value="Default" />
       <updated>1536757830188</updated>
       <workItem from="1536757831720" duration="2456000" />
-      <workItem from="1536831099541" duration="2697000" />
+      <workItem from="1536831099541" duration="2777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5153000" />
+    <option name="totallyTimeSpent" value="5233000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -313,18 +313,18 @@
           <first_editor relative-caret-position="2675">
             <caret line="107" column="3" lean-forward="true" selection-start-line="107" selection-start-column="3" selection-end-line="107" selection-end-column="3" />
             <folding>
-              <marker date="1536833874590" expanded="true" signature="5393:6058" ph="{&quot;selectedFields&quot;: &quot;products.product_title as ProductTitle,products.product_price as ProductPrice,productdenormalizes.product_tag,metas.meta_name,metas.meta_value&quot;...}" />
-              <marker date="1536833874590" expanded="true" signature="5413:5515" ph="{...}" />
-              <marker date="1536833874590" expanded="true" signature="5429:5508" ph="{...}" />
-              <marker date="1536833874590" expanded="true" signature="5448:5498" ph="{&quot;product_price&quot;: 20...}" />
-              <marker date="1536833874590" expanded="true" signature="5537:5835" ph="{...}" />
-              <marker date="1536833874590" expanded="true" signature="5555:5669" ph="{...}" />
-              <marker date="1536833874590" expanded="true" signature="5575:5659" ph="[...]" />
-              <marker date="1536833874590" expanded="true" signature="5701:5829" ph="{...}" />
-              <marker date="1536833874590" expanded="true" signature="5721:5819" ph="[...]" />
-              <marker date="1536833874590" expanded="true" signature="6018:6056" ph="{&quot;product_price&quot;: &quot;desc&quot;...}" />
-              <marker date="1536833874590" expanded="true" signature="6085:6408" ph="{&quot;table&quot;: &quot;products&quot;...}" />
-              <marker date="1536833874590" expanded="true" signature="6122:6406" ph="{&quot;product_title&quot;: &quot;Hello world&quot;...}" />
+              <marker date="1536833970650" expanded="true" signature="5396:6061" ph="{&quot;selectedFields&quot;: &quot;products.product_title as ProductTitle,products.product_price as ProductPrice,productdenormalizes.product_tag,metas.meta_name,metas.meta_value&quot;...}" />
+              <marker date="1536833970650" expanded="true" signature="5416:5518" ph="{...}" />
+              <marker date="1536833970650" expanded="true" signature="5432:5511" ph="{...}" />
+              <marker date="1536833970650" expanded="true" signature="5451:5501" ph="{&quot;product_price&quot;: 20...}" />
+              <marker date="1536833970650" expanded="true" signature="5540:5838" ph="{...}" />
+              <marker date="1536833970650" expanded="true" signature="5558:5672" ph="{...}" />
+              <marker date="1536833970650" expanded="true" signature="5578:5662" ph="[...]" />
+              <marker date="1536833970650" expanded="true" signature="5704:5832" ph="{...}" />
+              <marker date="1536833970650" expanded="true" signature="5724:5822" ph="[...]" />
+              <marker date="1536833970650" expanded="true" signature="6021:6059" ph="{&quot;product_price&quot;: &quot;desc&quot;...}" />
+              <marker date="1536833970650" expanded="true" signature="6089:6412" ph="{&quot;table&quot;: &quot;products&quot;...}" />
+              <marker date="1536833970650" expanded="true" signature="6126:6410" ph="{&quot;product_title&quot;: &quot;Hello world&quot;...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -353,21 +353,21 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="4100">
-            <caret line="221" column="17" lean-forward="true" selection-start-line="221" selection-start-column="17" selection-end-line="221" selection-end-column="17" />
+          <first_editor relative-caret-position="212">
+            <caret line="267" column="4" lean-forward="false" selection-start-line="267" selection-start-column="4" selection-end-line="267" selection-end-column="4" />
             <folding>
-              <marker date="1536833874590" expanded="true" signature="5393:6058" ph="{&quot;selectedFields&quot;: &quot;products.product_title as ProductTitle,products.product_price as ProductPrice,productdenormalizes.product_tag,metas.meta_name,metas.meta_value&quot;...}" />
-              <marker date="1536833874590" expanded="true" signature="5413:5515" ph="{...}" />
-              <marker date="1536833874590" expanded="true" signature="5429:5508" ph="{...}" />
-              <marker date="1536833874590" expanded="true" signature="5448:5498" ph="{&quot;product_price&quot;: 20...}" />
-              <marker date="1536833874590" expanded="true" signature="5537:5835" ph="{...}" />
-              <marker date="1536833874590" expanded="true" signature="5555:5669" ph="{...}" />
-              <marker date="1536833874590" expanded="true" signature="5575:5659" ph="[...]" />
-              <marker date="1536833874590" expanded="true" signature="5701:5829" ph="{...}" />
-              <marker date="1536833874590" expanded="true" signature="5721:5819" ph="[...]" />
-              <marker date="1536833874590" expanded="true" signature="6018:6056" ph="{&quot;product_price&quot;: &quot;desc&quot;...}" />
-              <marker date="1536833874590" expanded="true" signature="6085:6408" ph="{&quot;table&quot;: &quot;products&quot;...}" />
-              <marker date="1536833874590" expanded="true" signature="6122:6406" ph="{&quot;product_title&quot;: &quot;Hello world&quot;...}" />
+              <marker date="1536833970650" expanded="true" signature="5396:6061" ph="{&quot;selectedFields&quot;: &quot;products.product_title as ProductTitle,products.product_price as ProductPrice,productdenormalizes.product_tag,metas.meta_name,metas.meta_value&quot;...}" />
+              <marker date="1536833970650" expanded="true" signature="5416:5518" ph="{...}" />
+              <marker date="1536833970650" expanded="true" signature="5432:5511" ph="{...}" />
+              <marker date="1536833970650" expanded="true" signature="5451:5501" ph="{&quot;product_price&quot;: 20...}" />
+              <marker date="1536833970650" expanded="true" signature="5540:5838" ph="{...}" />
+              <marker date="1536833970650" expanded="true" signature="5558:5672" ph="{...}" />
+              <marker date="1536833970650" expanded="true" signature="5578:5662" ph="[...]" />
+              <marker date="1536833970650" expanded="true" signature="5704:5832" ph="{...}" />
+              <marker date="1536833970650" expanded="true" signature="5724:5822" ph="[...]" />
+              <marker date="1536833970650" expanded="true" signature="6021:6059" ph="{&quot;product_price&quot;: &quot;desc&quot;...}" />
+              <marker date="1536833970650" expanded="true" signature="6089:6412" ph="{&quot;table&quot;: &quot;products&quot;...}" />
+              <marker date="1536833970650" expanded="true" signature="6126:6410" ph="{&quot;product_title&quot;: &quot;Hello world&quot;...}" />
             </folding>
           </first_editor>
           <second_editor />
