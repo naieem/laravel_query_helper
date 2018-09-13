@@ -75,43 +75,43 @@ Params:
 1. whereClause: example.
 ```php
 $whereClause = [
-            "and" => [
-                "eql" => [
-                    "metas.meta_name" => "Et."
-                ],
-                "eql" => [
-                    "metas.meta_value" => "Fugit."
-                ],
-                "eql" => [
-                    "products.product_stock" => "289"
-                ]
-            ],
-            "or" => [
-                "eql"=>[
-                    "product_title" => "Dolores mollitia."
-                ],
-                "gt"=>[
-                    "product_price" => "47"
-                ]
-            ]
-        ];
+    "and" => [
+        "eql" => [
+            "metas.meta_name" => "Et."
+        ],
+        "eql" => [
+            "metas.meta_value" => "Fugit."
+        ],
+        "eql" => [
+            "products.product_stock" => "289"
+        ]
+    ],
+    "or" => [
+        "eql"=>[
+            "product_title" => "Dolores mollitia."
+        ],
+        "gt"=>[
+            "product_price" => "47"
+        ]
+    ]
+];
 ```
 2. joiningClause. Example:
 ```php
 $condition = [
-            'metas' => [
-                "eql" => [
-                    "metas.product_id",
-                    "products.id"
-                ]
-            ],
-            "productdenormalizes" => [
-                "eql" => [
-                    "productdenormalizes.product_id",
-                    "products.id"
-                ]
-            ]
-        ];
+    'metas' => [
+        "eql" => [
+            "metas.product_id",
+            "products.id"
+        ]
+    ],
+    "productdenormalizes" => [
+        "eql" => [
+            "productdenormalizes.product_id",
+            "products.id"
+        ]
+    ]
+];
 ```
 Here 'metas' and 'productdenormalizes' are the table with which 
 the main table is trying to join and get filtered data.
@@ -126,7 +126,7 @@ the main table is trying to join and get filtered data.
 4. OrderBy: Example:
 ```php
 $orderBy = [
-            "product_price" => "asc"
+    "product_price" => "asc"
 ];
 ```
 
@@ -181,32 +181,32 @@ Params:
 1. whereClause: example.
 ```php
 $whereClause = [
-            "and" => [
-                "eql" => [
-                    "metas.meta_name" => "Et."
-                ],
-                "eql" => [
-                    "metas.meta_value" => "Fugit."
-                ],
-                "eql" => [
-                    "products.product_stock" => "289"
-                ]
-            ],
-            "or" => [
-                "eql"=>[
-                    "product_title" => "Dolores mollitia."
-                ],
-                "gt"=>[
-                    "product_price" => "47"
-                ]
-            ]
-        ];
+    "and" => [
+        "eql" => [
+            "metas.meta_name" => "Et."
+        ],
+        "eql" => [
+            "metas.meta_value" => "Fugit."
+        ],
+        "eql" => [
+            "products.product_stock" => "289"
+        ]
+    ],
+    "or" => [
+        "eql"=>[
+            "product_title" => "Dolores mollitia."
+        ],
+        "gt"=>[
+            "product_price" => "47"
+        ]
+    ]
+];
 ```
 
 2. OrderBy: Example:
 ```php
 $orderBy = [
-            "product_price" => "asc"
+   "product_price" => "asc"
 ];
 ```
 
