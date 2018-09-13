@@ -220,7 +220,7 @@ $itemPerPage = 10;
 $pageNumber = 2; 
 ```
 
-4. Relational Functions array: Example:
+5. Relational Functions array: Example:
 ['tags','comments'].
 
 Exaple of calling the Function:
