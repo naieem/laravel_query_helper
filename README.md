@@ -28,7 +28,7 @@ public function getByQuery(Request $request)
 
 ## Functions includes.
 
-### GetAllData()
+### GetAllData($relationFncs = null)
 Params:
 1. Array of relational functions name:
 example:['tags','comments'].
@@ -36,7 +36,7 @@ example:['tags','comments'].
 Response:
 Collection of all data coming from data base.
 
-### GetByPagination()
+### GetByPagination($resultPerPage, $relationFncs = null)
 
 Params:
 1. Result per page
@@ -46,7 +46,7 @@ example:['tags','comments'].
 Response:
 Collection of all data coming from data base.
 
-### GetResultByComplex()
+### GetResultByComplex($whereClause = [], $orderBy = [], $pageNumber = null, $itemPerPage = null, $relationalFncs = null)
 
 Params:
 1. whereClause: example.
@@ -126,28 +126,33 @@ $this->helper->getResultByComplex($whereClause, $condition, $fields, $orderBy, $
 Response:
 Collection of all data coming from data base.
 
-### Insert()
+### Insert($tableName,$data)
+Inserting data to table
+
 Params:
-1. Data of the model table. Example:
+1. tablename
+2. data to be inserted
+
+Example:
 
 ```php
 public function store(Request $request)
-    {
-        $allData = $request->all();
-
-        try {
-            $insertResult = $this->helper->insert($allData);
-            return response($insertResult, 200);
-        } catch (BadRequestHttpException $e) {
-            return response($e, 500);
-        }
-    }     
+{
+   $allData = $request->input('data');
+   $table = $request->input('table');
+   try {
+        $insertResult = $this->helper->insert($table, $allData);
+        return response($insertResult, 200);
+    } catch (BadRequestHttpException $e) {
+        return response($e, 500);
+    }
+}    
 ```
 
 Response:
 Collection of all data coming from data base.
 
-### GetDataBySqlFilter()
+### GetDataBySqlFilter($parentCondition = null, $joiningcondition = null, $fields = null, $orderby = null, $pageNumber = null, $itemPerPage = null)
 
 Params:
 1. whereClause: example.
