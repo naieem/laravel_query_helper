@@ -25,6 +25,29 @@ public function getByQuery(Request $request)
 }
 ```
 
+5. For relational query please add relational functions in the model.
+ 
+ Example:
+ 
+ ```php
+ class Product extends Model
+ { 
+     /**
+      * The attributes that are mass assignable.
+      *
+      * @var array
+      */
+     protected $fillable = ['product_title','product_details','product_price','product_stock'];
+ 
+     public function tags(){
+         return $this->hasMany(Productdenormalize::class);
+     }
+     public function metas(){
+         return $this->hasMany(Meta::class);
+     }
+ }
+ ```
+
 
 ## Functions includes.
 
