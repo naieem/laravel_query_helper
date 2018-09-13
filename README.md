@@ -39,7 +39,7 @@ public function getByQuery(Request $request)
       */
      protected $fillable = ['product_title','product_details','product_price','product_stock'];
  
-     public function tags(){
+     public function productdenormalizes(){
          return $this->hasMany(Productdenormalize::class);
      }
      public function metas(){
@@ -53,7 +53,7 @@ public function getByQuery(Request $request)
 
 ### GetAllData($relationFncs = null)
 Params:
-1. Array of relational functions name:
+1. Array of relational tables name:
 example:['tags','comments'].
 
 Response:
@@ -63,7 +63,7 @@ Collection of all data coming from data base.
 
 Params:
 1. Result per page
-2. Array of relational functions name:
+2. Array of relational tables name:
 example:['tags','comments'].
 
 Response:
@@ -219,6 +219,8 @@ $itemPerPage = 10;
 ```php
 $pageNumber = 2; 
 ```
+5. Array of relational tables name:
+example:['tags','comments'].
 
 Exaple of calling the Function:
 ```php
@@ -227,5 +229,54 @@ $products = $this->helper->getDataBySqlFilter($whereClause, $orderBy, $pageNumbe
 
 Response:
 Collection of all data coming from data base.
+
+#Postman Query
+
+##Functions Includes:
+
+###getResultByComplex()
+```json
+   {
+    "whereClause":{
+        "and":{
+            "lt":{
+                "product_price":20
+            }
+        }	
+    },
+    "joiningClause":{
+        "metas":{
+            "eql":[
+                "metas.product_id",
+                   "products.id"
+            ]
+        },
+        "productdenormalizes":{
+            "eql":[
+                "productdenormalizes.product_id",
+                   "products.id"
+            ]
+        }
+    },
+    "selectedFields":"products.product_title as ProductTitle,products.product_price as ProductPrice,productdenormalizes.product_tag,metas.meta_name,metas.meta_value",
+    "orderBy":{
+        "product_price":"desc"
+    }
+}
+```
+
+###insert()
+
+```json
+{
+    "table":"products",
+    "data":{
+        "product_title": "Hello world",
+        "product_details": "Voluptates et libero enim voluptas in enim. Illum veritatis dignissimos atque quae porro quia molestias. Expedita ut ut minima et corrupti enim.",
+        "product_price": "99",
+        "product_stock": "99"	
+    }
+}     
+```
 
 
