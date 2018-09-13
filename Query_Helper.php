@@ -210,14 +210,27 @@ class QueryHelper
     }
 
     /**
-     * Title:insert
-     * Description: insertin data in the table
-     * @param data object
-     * @return
+     * Inserting information to specific table
+     * @param $tableName
+     * @param $data
+     * @return array
      */
-    public function insert($data)
+    public function insert($tableName, $data)
     {
-        return $this->className->create($data);
+        try {
+            $id = DB::table($tableName)->insertGetId($data);
+            if ($id) {
+                return [
+                    'isSuccess' => true,
+                    'insertedId' => $id
+                ];
+            }
+        } catch (Exception $e) {
+            return [
+                'isSuccess' => false,
+                'message' => $e->getMessage()
+            ];
+        }
     }
 
     /**
